@@ -1,0 +1,38 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('2015-822742460-20150606184503881ap_20150606.jpg') ;
+    /* background-size: 2000px 1000px; */
+
+    /* background-size: cover; */
+    
+    background-size: contain; 
+    background-repeat:;
+
+    background-position: center; /* Centraliza a imagem */
+    background-attachment: fixed; /* Mantém a imagem fixa durante o scroll */
+    color: #fefefe; /* Define a cor do texto como branco */
+  }
+  
+  /* Estilo para o conteúdo centralizado */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Estilo do título */
+  h1 {
+    font-size: 4em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Estilo de parágrafos */
+  p {
+    font-size: 1.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
